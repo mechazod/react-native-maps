@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/react-native-maps/react-native-maps.git", :tag=> "v#{s.version}" }
+  s.source       = { :git => "https://github.com/react-native-maps/react-native-maps.git", :branch=> "feature/ios_get_address" }
   s.source_files  = "lib/ios/AirGoogleMaps/**/*.{h,m}"
   s.compiler_flags = '-DHAVE_GOOGLE_MAPS=1', '-DHAVE_GOOGLE_MAPS_UTILS=1', '-fno-modules'
 
